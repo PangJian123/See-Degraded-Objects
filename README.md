@@ -1,7 +1,5 @@
-# See-Degraded-Objects
-The code for the paper entitled "See Degraded Objects: A Physics-guided Approach for Object Detection in Adverse Environments" (IEEE Transactions on Image Processing, TIP)
-
-Edited by Jian Pang
+# See Degraded Objects: A Physics-guided Approach for Object Detection in Adverse Environments
+This repo is the official implementation of our paper “See Degraded Objects: A Physics‑Guided Approach for Object Detection in Adverse Environments,” published in IEEE Transactions on Image Processing (TIP), 2025.
 
 Usage of this code is free for research purposes only. 
 
@@ -38,5 +36,19 @@ Thank you.
     China University of Petroleum (East China)                                                           
     Email: jianpang@s.upc.edu.cn
 
-# Acknowledgements
-Our code is based on https://github.com/WZMIAOMIAO/deep-learning-for-image-processing.
+## Acknowledgement
+* Our code is based on https://github.com/WZMIAOMIAO/deep-learning-for-image-processing.
+
+## Citation
+Please consider citing our work as follows if it is helpful.
+```
+@ARTICLE{see-degraded-objects,
+  author={Liu, Weifeng and Pang, Jian and Zhang, Bingfeng and Wang, Jin and Liu, Baodi and Tao, Dapeng},
+  journal={IEEE Transactions on Image Processing}, 
+  title={See Degraded Objects: A Physics-Guided Approach for Object Detection in Adverse Environments}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={2198-2212},
+  doi={10.1109/TIP.2025.3551533}}
+```
