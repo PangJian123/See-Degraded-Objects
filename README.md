@@ -23,16 +23,13 @@ Thank you.
     cd See-Degraded-Objects
 ## 2.Datasets
 - Download datasets through the links below:
-*Foggy_Cityscapes_beta_0.02*:???
-*RTTS*:???
-*DUO*:???
+*Foggy_Cityscapes_beta_0.02*:?
+*RTTS*:?
+*DUO*:?
 
 ## 3.Run the training file:
-        ??
-        
-## priors generation:
-- frequency prior ???
-- environment prior ???
+        python train_res50_fpn.py --epochs 20 --name RTTS_weightfusion_fuzzya_15_mem_tri_ce1 --prior 'weight_fusion' --fuzzy_a 1.5 --member_f 'tri' --p_ce 1 --fuzzy_c 3 --num-classes 5 --json-name 'voc_fog_classes.json' --data-path 'path/to/RTTS_VOC' --resume ''
+
 
 # Contact:
     Don't hesitate to contact me if you meet any problems when using this code.
@@ -42,4 +39,4 @@ Thank you.
     Email: jianpang@s.upc.edu.cn
 
 # Acknowledgements
-Our code is based on ???.
+Our code is based on https://github.com/WZMIAOMIAO/deep-learning-for-image-processing.
