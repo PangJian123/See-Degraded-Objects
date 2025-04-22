@@ -1,0 +1,6 @@
+numpy==1.26.3
+detectron2==0.6+cu102
+torch==1.10.0+cu102
+torchvision==0.11.0+cu102
+pycocotools==2.0.6
+Pillow==9.4.0
