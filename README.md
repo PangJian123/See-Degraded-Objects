@@ -1,9 +1,6 @@
 # See Degraded Objects: A Physics-guided Approach for Object Detection in Adverse Environments
 This repo is the official implementation of our paper “See Degraded Objects: A Physics‑Guided Approach for Object Detection in Adverse Environments,” published in IEEE Transactions on Image Processing (TIP), 2025.
 
-Usage of this code is free for research purposes only. 
-
-Thank you.
 
 ## Requirements:
     CUDA  10.2
