@@ -1,5 +1,5 @@
 # See-Degraded-Objects
-The code for the paper entitled "See Degraded Objects: A Physics-guided Approach for Object Detection in Adverse Environments"
+The code for the paper entitled "See Degraded Objects: A Physics-guided Approach for Object Detection in Adverse Environments" (IEEE Transactions on Image Processing, TIP)
 
 Edited by Jian Pang
 
