@@ -39,13 +39,13 @@ After downloading, extract each archive and adjust the `--data-path` argument in
 
 The public datasets above already include frequency and environment priors. If you wish to create priors for **your own dataset**, do the following:
 
-To generate frequency priors
+To generate frequency priors:
 1. Open `generate_ams.py` and set `image_root` and `image_path` to the correct locations for your dataset.
 2. Run the script:
 ```bash
 python generate_ams.py
 ```
-To generate environment priors 
+To generate environment priors:
 1. Open `dehazy_dark_channel_prior.py` and set `image_path` and `dehazy_transmission_path` to the correct locations for your dataset.
 2. Run the script:
 
