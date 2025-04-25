@@ -13,10 +13,22 @@ dark_channel_piror = DarkChannelPrior(kernel_size=15, top_candidates_ratio=0.000
                                           omega=0.95, radius=40, eps=1e-3, open_threshold=True, depth_est=True)
 
 
-image_path = '/media/pj/UPC/samples/images/'
-dehazy_transmission_path = '/media/pj/UPC/samples/transmission/'
+image_path = '/media/pj/UPC1/TIP-datasets-for-github/samples/images/'
+dehazy_transmission_path = '/media/pj/UPC1/TIP-datasets-for-github/samples/transmission/'
+if os.path.isdir(dehazy_transmission_path):
+    pass
+else:
+    os.makedirs(dehazy_transmission_path)
 # dehazy_image_path = '/media/pj/UPC/samples/dehazy_images/'
+# if os.path.isdir(dehazy_image_path):
+#     pass
+# else:
+#     os.makedirs(dehazy_image_path)
 # dehazy_depth_path = '/media/pj/UPC/samples/depth/'
+# if os.path.isdir(dehazy_depth_path):
+#     pass
+# else:
+#     os.makedirs(dehazy_depth_path)
 
 files = os.listdir(image_path)
 for i, file_name in enumerate(files):
