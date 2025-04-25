@@ -17,10 +17,10 @@ This repo is the official implementation of our paper “See Degraded Objects: A
     git clone https://github.com/PangJian123/See-Degraded-Objects.git
     cd See-Degraded-Objects
 ### 2.Datasets
-- Download datasets through the links below (datasets are coming up soon): 
-*Foggy_Cityscapes_beta_0.02*:? 
-*RTTS*:?
-*DUO*:?
+- Download datasets: 
+[*Foggy_Cityscapes_beta_0.02*](https://huggingface.co/datasets/PJ-UPC/datasets-for-see-degraded-objects/blob/main/Foggy_Cityscapes_beta_0.02_VOC.zip)
+[*RTTS*](https://huggingface.co/datasets/PJ-UPC/datasets-for-see-degraded-objects/blob/main/RTTS_VOC.zip)
+[*DUO*](https://huggingface.co/datasets/PJ-UPC/datasets-for-see-degraded-objects/blob/main/DUO_VOC.zip)
 
 ### 3.Run the training file:
     python train_res50_fpn.py --epochs 20 --name RTTS_weightfusion_fuzzya_15_mem_tri_ce1 --prior 'weight_fusion' --fuzzy_a 1.5 --member_f 'tri' --p_ce 1 --fuzzy_c 3 --num-classes 5 --json-name 'voc_fog_classes.json' --data-path 'path/to/RTTS_VOC' --resume ''
