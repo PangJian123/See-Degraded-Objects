@@ -37,7 +37,7 @@ After downloading, extract each archive and adjust the `--data-path` argument in
 
 ### 3. Training
 
-Example commands for training **ResNet‑50‑FPN** detectors:
+Example commands for training **Faster-RCNN** detectors:
 
 ```bash
 # Train on RTTS
